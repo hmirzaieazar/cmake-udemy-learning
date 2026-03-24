@@ -1,0 +1,3 @@
+set(LIB_SOURCE_FILES my_lib.cc)
+
+add_library(${LIBRARY_NAME} STATIC ${LIB_SOURCE_FILES})

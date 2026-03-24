@@ -1,0 +1,10 @@
+#pragma once
+
+#include <cstdint>
+
+static const char* s_ProjectName = "@CMAKE_PROJECT_NAME@";
+static const char* s_ProjectVersion = "@CMAKE_PROJECT_VERSION@";
+
+static const std::int32_t s_ProjectVersionMajor{@CMAKE_PROJECT_VERSION_MAJOR@};
+static const std::int32_t s_ProjectVersionMinor{@CMAKE_PROJECT_VERSION_MINOR@};
+static const std::int32_t s_ProjectVersionPatch{@CMAKE_PROJECT_VERSION_PATCH@};
